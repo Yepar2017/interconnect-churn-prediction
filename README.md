@@ -1,2 +1,3 @@
-# interconnect-churn-prediction
-Customer churn prediction using machine learning 
+# Customer Churn Prediction — Interconnect
+
+(Work in progress)
