@@ -49,4 +49,8 @@ The best performing model was **Gradient Boosting**, achieving:
 - **AUC-ROC:** 0.91  
 - **Accuracy:** ~0.87
 
-This indicates that the model has strong predictive performance in identifying customers like
+This indicates that the model has strong predictive performance in identifying customers who are likely to churn, enabling proactive retention strategies.
+
+## Business Impact
+By identifying high-risk customers in advance, Interconnect can target retention campaigns more effectively, reduce customer churn, and improve long-term revenue.
+
