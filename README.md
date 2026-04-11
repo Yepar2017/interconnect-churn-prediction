@@ -1,56 +1,101 @@
+## 🚀 Case study Highlights
+
+- 🎯 Goal: Predict customer churn  
+- 🧠 Model: Gradient Boosting  
+- 📊 Performance: AUC-ROC > 0.91  
+- 💡 Impact: Supports customer retention strategies  
+
 # Customer Churn Prediction — Interconnect
 
-## Business Problem
-Interconnect is a telecommunications company that wants to predict customer churn.  
-If the company can identify customers who are likely to cancel their service, it can proactively offer promotions or special plans to retain them.
+## Overview
+This case study focuses on predicting customer churn for a telecom company (Interconnect). The goal is to identify customers who are likely to leave the service, enabling the business to take proactive retention actions.
 
-The main objective of this project is to build a machine learning model capable of predicting whether a customer will leave the company or not.
+---
+
+## Business Problem
+Customer churn directly impacts revenue and growth. Acquiring new customers is significantly more expensive than retaining existing ones.
+
+The company needs a reliable way to:
+- Identify customers at risk of leaving
+- Take action before churn happens
+- Improve customer lifetime value
+
+---
+
+## Objective
+Develop a machine learning model capable of predicting whether a customer will churn based on their service usage, contract details, and billing information.
 
 ---
 
 ## Data Description
-The dataset is composed of multiple files collected from different sources:
-
-- `contract.csv`: contract information.
-- `personal.csv`: customer personal data.
-- `internet.csv`: internet services information.
-- `phone.csv`: phone services information.
-
-All datasets are joined using the `customerID` column.
-
-The data includes:
-- Contract type and duration.
-- Monthly and total charges.
-- Internet and phone services.
-- Additional services such as online security, technical support, streaming, and cloud backup.
+The dataset includes:
+- Customer demographics
+- Contract type and tenure
+- Internet and phone services
+- Monthly and total charges
 
 ---
 
 ## Methodology
-The project followed these main steps:
 
-1. Data loading and merging from multiple sources.
-2. Data cleaning and preprocessing:
-   - Handling missing values.
-   - Encoding categorical variables.
-   - Feature engineering.
-3. Exploratory Data Analysis (EDA).
-4. Model training and evaluation:
-   - Logistic Regression (baseline).
-   - Random Forest.
-   - Gradient Boosting.
-5. Model selection using AUC-ROC as the main evaluation metric.
+### 1. Data Preparation
+- Cleaned inconsistent data types
+- Handled missing values
+- Converted categorical variables into numerical format
+
+### 2. Exploratory Data Analysis
+- Identified key churn drivers (contract type, tenure, charges)
+- Analyzed class imbalance
+
+### 3. Feature Engineering
+- Created meaningful features to improve model performance
+
+### 4. Model Training
+Tested multiple models:
+- Logistic Regression (baseline)
+- Random Forest
+- Gradient Boosting
 
 ---
 
-## Final Model and Results
-The best performing model was **Gradient Boosting**, achieving:
+## Results
 
-- **AUC-ROC:** 0.91  
-- **Accuracy:** ~0.87
+- ✅ **Best Model:** Gradient Boosting  
+- 📊 **AUC-ROC:** > 0.91  
+- 📈 Strong ability to distinguish between churn and non-churn customers  
 
-This indicates that the model has strong predictive performance in identifying customers who are likely to churn, enabling proactive retention strategies.
+---
 
 ## Business Impact
-By identifying high-risk customers in advance, Interconnect can target retention campaigns more effectively, reduce customer churn, and improve long-term revenue.
 
+This model enables the company to:
+
+- Identify high-risk customers early  
+- Design targeted retention strategies  
+- Reduce customer loss and increase revenue  
+
+💡 Even a small reduction in churn can lead to significant financial gains.
+
+---
+
+## Tech Stack
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+
+---
+
+## Key Takeaways
+
+- Data quality and feature engineering had a major impact on performance  
+- Tree-based models outperformed linear models  
+- Model evaluation metrics (AUC-ROC) were critical for selection  
+
+---
+
+## Author
+
+**Yezid Feria**  
+Data Analyst | Data Science | Business Impact  
