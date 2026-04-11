@@ -95,6 +95,11 @@ This model enables the company to:
 
 ---
 
+## 📊 Key Insights
+
+### Churn Distribution
+![Churn Distribution](images/churn_distribution.png)
+
 ## Author
 
 **Yezid Feria**  
