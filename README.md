@@ -105,14 +105,14 @@ The dataset shows a class imbalance, with a smaller proportion of customers chur
 ---
 
 ### Tenure vs Churn
-![Tenure vs Churn](Images/CaptureTenure.PNG)
+![Tenure vs Churn](Images/CaptureTernure.PNG)
 
 Customers who churn tend to have significantly lower tenure compared to those who stay. This suggests that the highest risk of churn occurs during the early stages of the customer lifecycle, highlighting the importance of improving onboarding and early customer engagement strategies.
 
 ---
 
 ### Monthly Charges vs Churn
-![Monthly Charges vs Churn](Images/Capturemonthly.PNG)
+![Monthly Charges vs Churn](Images/Capture_monthly.PNG)
 
 Customers who churn tend to show different monthly charge patterns, suggesting that pricing and perceived value may influence retention. This indicates that pricing strategy and service value communication can play an important role in reducing churn.
 ## Author
